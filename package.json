@@ -1,0 +1,25 @@
+{
+  "name": "cards-ad4m",
+  "version": "1.0.0",
+  "description": "Created with choo-cli",
+  "main": "client.js",
+  "scripts": {
+    "start": "bankai start client.js",
+    "build:prod": "bankai build client.js dist/",
+    "lint": "standard --verbose | snazzy",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@perspect3vism/ad4m": "^0.2.15",
+    "@perspect3vism/ad4m-connect": "^0.2.15",
+    "choo": "^6.1.0"
+  },
+  "devDependencies": {
+    "bankai": "^9.0.0-rc7",
+    "snazzy": "^7.0.0",
+    "standard": "^8.6.0"
+  }
+}
